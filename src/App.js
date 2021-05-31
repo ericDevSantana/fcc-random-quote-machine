@@ -1,19 +1,12 @@
 import "./App.css";
+import Card from "../src/components/Card";
+import Quote from "../src/components/Quote";
 
 function App() {
   return (
-    <div id="quote-box" className="App">
-      <div id="text">some text</div>
-      <div id="author">some author</div>
-      <button id="new-quote">new quote</button>
-      <a
-        href="https://twitter.com/intent/tweet"
-        target="_blank"
-        id="tweet-quote"
-      >
-        Tweet
-      </a>
-    </div>
+    <Card>
+      <Quote />
+    </Card>
   );
 }
 
