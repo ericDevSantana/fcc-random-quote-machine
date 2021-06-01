@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .quote {
+  display: block;
   color: #34495e;
   font-family: 'Open Sans', sans-serif;
 }
@@ -36,6 +37,7 @@
     background-color: #0063B1;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .anchor-links {

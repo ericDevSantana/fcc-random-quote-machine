@@ -9,20 +9,20 @@ const Quote = (props) => {
     <div id="quote-box" className={styles.quote}>
       <div id="text">
         <h2>
-          <FontAwesomeIcon icon={faQuoteLeft} />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          <FontAwesomeIcon icon={faQuoteLeft} style={{ marginRight: "10px" }} />
+          {props.data.quote}
         </h2>
       </div>
       <div id="author" className={styles.author}>
-        <h3>-Some Author</h3>
+        <h3>-{props.data.author}</h3>
       </div>
       <div className={styles["bottom-bar"]}>
         <div className={styles["anchor-links"]}>
           <a
-            href="https://twitter.com/intent/tweet"
+            href={
+              "https://twitter.com/intent/tweet?text=" +
+              `${props.data.quote} -${props.data.author}`
+            }
             target="_blank"
             id="tweet-quote"
           >
@@ -36,7 +36,9 @@ const Quote = (props) => {
             <FontAwesomeIcon icon={faTumblr} size="2x" />
           </a>
         </div>
-        <button id="new-quote">New Quote</button>
+        <button type="submit" onClick={props.onRequest} id="new-quote">
+          New Quote
+        </button>
       </div>
     </div>
   );
