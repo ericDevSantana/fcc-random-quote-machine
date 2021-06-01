@@ -4,7 +4,10 @@
 
 ![Random Quote Machine](https://github.com/ericDevSantana/fcc-random-quote-machine/blob/main/p1.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## I'm using:
+[Quotable API](https://github.com/lukePeavey/quotable)\
+[Font Awesome](https://fontawesome.com/)\
+[React.js](https://reactjs.org/)
 
 ## Available Scripts
 
