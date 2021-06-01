@@ -28,11 +28,7 @@ const Quote = (props) => {
           >
             <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
-          <a
-            href="https://twitter.com/intent/tweet"
-            target="_blank"
-            id="tumblr-quote"
-          >
+          <a href="https://www.tumblr.com/" target="_blank" id="tumblr-quote">
             <FontAwesomeIcon icon={faTumblr} size="2x" />
           </a>
         </div>
