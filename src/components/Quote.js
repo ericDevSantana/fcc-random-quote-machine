@@ -23,12 +23,18 @@ const Quote = (props) => {
               "https://twitter.com/intent/tweet?text=" +
               `${props.data.quote} -${props.data.author}`
             }
+            rel="noreferrer"
             target="_blank"
             id="tweet-quote"
           >
             <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
-          <a href="https://www.tumblr.com/" target="_blank" id="tumblr-quote">
+          <a
+            href="https://www.tumblr.com/"
+            rel="noreferrer"
+            target="_blank"
+            id="tumblr-quote"
+          >
             <FontAwesomeIcon icon={faTumblr} size="2x" />
           </a>
         </div>
