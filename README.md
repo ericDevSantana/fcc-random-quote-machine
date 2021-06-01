@@ -2,7 +2,7 @@
 
 ## Project 1 - Random Quote Machine
 
-![Random Quote Machine](/images/project1.png)
+![Random Quote Machine](https://github.com/ericDevSantana/fcc-random-quote-machine/blob/main/p1.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
